@@ -1,0 +1,1 @@
+schtasks /Create /TN 빠른시작해제 /TR c:\fastboot_to_hide.vbs /SC ONEVENT /EC SYSTEM /MO "*[System[Provider[@Name='Microsoft-Windows-WindowsUpdateClient']]]"
